@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>电子邮箱</th>
+            <th>操作</th>
+        </tr>
+        {%for author in authors%}
+        <tr>
+            <td>{{author.name}}</td>
+            <td>{{author.age}}</td>
+            <td>{{author.email}}</td>
+            <td><a href="http://localhost:8000/del_user/{{author.id}}">删除</a></td>
+        </tr>
+        {%endfor%}
+    </table>
+</body>
+</html>

@@ -33,5 +33,10 @@ def add_publisher_views(request):
 
 
 def get_author_views(request):
-    authors = Author.objects.all()
+    authors = Author.objects.get(name="王")
     return render(request, 'show_authors.html', locals())
+
+
+def get_author_list_views(request):
+    authors = Author.objects.all()
+    return render(request, 'show_author_list.html', locals())

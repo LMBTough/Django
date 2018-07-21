@@ -12,4 +12,5 @@ urlpatterns += [
 
 urlpatterns += [
     url(r'^get_author/$', get_author_views),
+    url(r'^author_list/$', get_author_list_views),
 ]
