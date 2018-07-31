@@ -40,3 +40,8 @@ def get_author_views(request):
 def get_author_list_views(request):
     authors = Author.objects.all()
     return render(request, 'show_author_list.html', locals())
+
+
+def less_than_views(request):
+    authors = Author.objects.lessThan(100)
+    return render(request, 'show_author_list.html', locals())
