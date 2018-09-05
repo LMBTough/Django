@@ -23,7 +23,8 @@ import django
 os.environ['DJANGO_SETTINGS_MODULE'] = 'myself.settings'
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^page/', include('markdown.urls')),
+    url(r'^md/', include('markdown.urls')),
+    url(r'^page/', include('page.urls')),
     url(r'^', include('index.urls')),
     url(r'^static/(?P<path>.*)$', django.views.static.serve,{'document_root': settings.STATIC_ROOT})
 ]

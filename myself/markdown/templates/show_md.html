@@ -3,19 +3,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Show MD</title>
+    <title>{%block title%}Show MD{%endblock%}</title>
     <script type="text/javascript" src="{%static '/showdown/dist/showdown.min.js'%}"></script>
     <link type="text/css" rel="stylesheet" href="/static/css/show_md.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/common.css">
     <link type="text/css" rel="stylesheet" href="/static/highlight/styles/color-brewer.css">
     <script type="text/javascript" src="{%static 'jquery-1.11.3.js'%}"></script>
+    {%block head%}
+    {%endblock head%}
 </head>
 <body>
+    {%block body%}
     <!--最头上的条子-->
     <div>
 
     </div>
 <!--中间的条子占45%-->
-    <div id="middle">
+    <div class="fade_in" id="middle">
         {{md}}
     </div>
 <!--底下的条子-->
@@ -33,5 +37,6 @@
             hljs.initHighlightingOnLoad();
         </script>
     </div>
+    {%endblock%}
 </body>
 </html>

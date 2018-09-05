@@ -2,10 +2,698 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc17b83d-3cd9-4951-9b27-3061a6b0e882" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/markdown/static/css/add_md.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown/templates/add_md.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/md/2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/day07/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/day07/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/day07/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/day07/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/day07/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/day07/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/day07/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/day07/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/migrations/0002_auto_20180728_1602.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/migrations/0002_auto_20180728_1602.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/day1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/day1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/day1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/day1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/day1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/day1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/day1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/day1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/day1/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/day1/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/static/timg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/static/timg.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/templates/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/templates/first.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/templates/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/templates/second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/templates/third.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/templates/third.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/music/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/music/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/day8/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/day8/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/day8/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/day8/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/day8/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/day8/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/day8/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/day8/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/templates/origin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/templates/origin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/fruit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/fruit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/fruit/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/fruit/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/fruit/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/fruit/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/fruit/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/fruit/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/migrations/0002_author_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/migrations/0002_author_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/migrations/0003_auto_20180723_1710.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/migrations/0003_auto_20180723_1710.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/migrations/0004_auto_20180727_1052.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/migrations/0004_auto_20180727_1052.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/migrations/0005_auto_20180727_1622.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/migrations/0005_auto_20180727_1622.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/templates/show_author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/templates/show_author_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/templates/show_authors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/templates/show_authors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/static/upload/usring/timg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/static/upload/usring/timg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_7Eh2TiV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_7Eh2TiV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_IOfjemr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_IOfjemr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_KAy25n3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_KAy25n3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_kH0cj4F.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../fruit/static/upload/usring/timg_kH0cj4F.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fruitday/index/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../fruitday/index/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myself.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myself.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index/templates/origin.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/templates/origin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/static/css/show_md.css" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/static/css/show_md.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/static/md/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/static/md/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/templates/show_md.html" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/templates/show_md.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myself/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myself/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myself/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myself/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myself/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myself/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myself/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/myself/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/show_md.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/show_md.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/templates/origin.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/templates/origin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/jquery-1.11.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/static/css/show_md.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/static/css/show_md.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/static/md/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/static/md/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/static/md/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/static/md/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/templates/show_md.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/templates/show_md.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/markdown/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/markdown/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/md/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/md/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/md/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/md/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myself/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/myself/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myself/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/myself/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myself/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/myself/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/myself/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/myself/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/README.ru.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/README.ru.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/agate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/agate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/androidstudio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/arduino-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/arduino-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/arta.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/arta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/ascetic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/ascetic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-cave-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-cave-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-cave-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-cave-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-dune-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-dune-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-dune-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-dune-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-estuary-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-estuary-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-estuary-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-estuary-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-forest-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-forest-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-forest-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-forest-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-heath-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-heath-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-heath-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-heath-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-lakeside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-lakeside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-lakeside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-lakeside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-plateau-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-plateau-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-plateau-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-plateau-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-savanna-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-savanna-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-savanna-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-savanna-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-seaside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-seaside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-seaside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-seaside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-sulphurpool-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-sulphurpool-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atelier-sulphurpool-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atelier-sulphurpool-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atom-one-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atom-one-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/atom-one-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/atom-one-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/brown-paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/brown-paper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/brown-papersq.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/brown-papersq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/codepen-embed.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/codepen-embed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/color-brewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/color-brewer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/darcula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/darcula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/darkula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/darkula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/docco.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/dracula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/dracula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/far.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/far.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/foundation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/github-gist.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/github-gist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/googlecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/googlecode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/grayscale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/gruvbox-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/gruvbox-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/gruvbox-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/gruvbox-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/hopscotch.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/hopscotch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/hybrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/hybrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/idea.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/idea.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/ir-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/ir-black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/kimbie.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/kimbie.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/kimbie.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/kimbie.light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/magula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/magula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/mono-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/mono-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/monokai-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/monokai-sublime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/monokai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/obsidian.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/obsidian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/ocean.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/ocean.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/paraiso-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/paraiso-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/paraiso-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/paraiso-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/pojoaque.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/pojoaque.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/pojoaque.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/pojoaque.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/purebasic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/purebasic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/qtcreator_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/qtcreator_dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/qtcreator_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/qtcreator_light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/railscasts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/railscasts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/rainbow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/rainbow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/routeros.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/routeros.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/school-book.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/school-book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/school-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/school-book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/solarized-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/solarized-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/solarized-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/solarized-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/sunburst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night-bright.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night-eighties.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow-night.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/tomorrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/vs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/vs2015.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/vs2015.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/xcode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/xcode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/xt256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/xt256.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/highlight/styles/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/highlight/styles/zenburn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/jquery-1.11.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/CREDITS.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/CREDITS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/DONATIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/DONATIONS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/bin/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/bin/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/dist/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/dist/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/dist/showdown.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/dist/showdown.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/dist/showdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/dist/showdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/dist/showdown.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/dist/showdown.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/cli/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/cli/makehtml.cmd.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/cli/makehtml.cmd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/cli/messenger.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/cli/messenger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/converter.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/converter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/anchors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/autoLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/autoLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/blockGamut.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/blockGamut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/blockQuotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/blockQuotes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/codeBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/codeBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/codeSpans.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/codeSpans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/completeHTMLDocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/completeHTMLDocument.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/detab.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/detab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/ellipsis.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/ellipsis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/emoji.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/encodeAmpsAndAngles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/encodeAmpsAndAngles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/encodeBackslashEscapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/encodeBackslashEscapes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/encodeCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/encodeCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/escapeSpecialCharsWithinTagAttributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/escapeSpecialCharsWithinTagAttributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/githubCodeBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/githubCodeBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashCodeTags.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashCodeTags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashHTMLBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashHTMLBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashHTMLSpans.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashHTMLSpans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashPreCodeTags.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/hashPreCodeTags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/headers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/horizontalRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/horizontalRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/italicsAndBold.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/italicsAndBold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/metadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/metadata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/outdent.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/outdent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/paragraphs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/paragraphs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/runExtension.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/runExtension.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/spanGamut.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/spanGamut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/strikethrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/strikethrough.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/stripLinkDefinitions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/stripLinkDefinitions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/underline.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/underline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/unescapeSpecialChars.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makehtml/unescapeSpecialChars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/anchors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/blockquote.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/blockquote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/codeBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/codeBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/codeSpan.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/codeSpan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/emphasis.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/emphasis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/listItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/listItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/pre.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/pre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/strikethrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/strikethrough.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/strong.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/strong.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/tableCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/tableCell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/txt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/showdown/src/subParsers/makemarkdown/txt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/README.ru.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/README.ru.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/agate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/agate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/androidstudio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/arduino-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/arduino-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/arta.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/arta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/ascetic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/ascetic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-cave-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-cave-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-cave-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-cave-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-dune-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-dune-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-dune-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-dune-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-estuary-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-estuary-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-estuary-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-estuary-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-forest-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-forest-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-forest-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-forest-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-heath-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-heath-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-heath-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-heath-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-lakeside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-lakeside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-lakeside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-lakeside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-plateau-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-plateau-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-plateau-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-plateau-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-savanna-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-savanna-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-savanna-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-savanna-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-seaside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-seaside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-seaside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-seaside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-sulphurpool-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-sulphurpool-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-sulphurpool-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atelier-sulphurpool-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atom-one-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atom-one-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atom-one-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/atom-one-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/brown-paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/brown-paper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/brown-papersq.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/brown-papersq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/codepen-embed.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/codepen-embed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/color-brewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/color-brewer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/darcula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/darcula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/darkula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/darkula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/docco.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/dracula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/dracula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/far.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/far.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/foundation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/github-gist.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/github-gist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/googlecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/googlecode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/grayscale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/gruvbox-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/gruvbox-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/gruvbox-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/gruvbox-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/hopscotch.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/hopscotch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/hybrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/hybrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/idea.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/idea.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/ir-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/ir-black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/kimbie.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/kimbie.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/kimbie.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/kimbie.light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/magula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/magula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/mono-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/mono-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/monokai-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/monokai-sublime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/monokai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/obsidian.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/obsidian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/ocean.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/ocean.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/paraiso-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/paraiso-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/paraiso-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/paraiso-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/pojoaque.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/pojoaque.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/pojoaque.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/pojoaque.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/purebasic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/purebasic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/qtcreator_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/qtcreator_dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/qtcreator_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/qtcreator_light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/railscasts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/railscasts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/rainbow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/rainbow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/routeros.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/routeros.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/school-book.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/school-book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/school-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/school-book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/solarized-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/solarized-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/solarized-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/solarized-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/sunburst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night-bright.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night-eighties.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow-night.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/tomorrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/vs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/vs2015.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/vs2015.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/xcode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/xcode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/xt256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/xt256.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/highlight/styles/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/highlight/styles/zenburn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/jquery-1.11.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/CREDITS.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/CREDITS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/DONATIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/DONATIONS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/bin/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/bin/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/dist/showdown.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/cli/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/cli/makehtml.cmd.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/cli/makehtml.cmd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/cli/messenger.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/cli/messenger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/converter.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/converter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/anchors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/autoLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/autoLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/blockGamut.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/blockGamut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/blockQuotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/blockQuotes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/codeBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/codeBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/codeSpans.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/codeSpans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/completeHTMLDocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/completeHTMLDocument.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/detab.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/detab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/ellipsis.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/ellipsis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/emoji.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/encodeAmpsAndAngles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/encodeAmpsAndAngles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/encodeBackslashEscapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/encodeBackslashEscapes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/encodeCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/encodeCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/escapeSpecialCharsWithinTagAttributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/escapeSpecialCharsWithinTagAttributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/githubCodeBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/githubCodeBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashCodeTags.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashCodeTags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashHTMLBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashHTMLBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashHTMLSpans.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashHTMLSpans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashPreCodeTags.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/hashPreCodeTags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/headers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/horizontalRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/horizontalRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/italicsAndBold.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/italicsAndBold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/metadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/metadata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/outdent.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/outdent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/paragraphs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/paragraphs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/runExtension.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/runExtension.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/spanGamut.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/spanGamut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/strikethrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/strikethrough.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/stripLinkDefinitions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/stripLinkDefinitions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/underline.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/underline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/unescapeSpecialChars.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makehtml/unescapeSpecialChars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/anchors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/blockquote.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/blockquote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/codeBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/codeBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/codeSpan.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/codeSpan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/emphasis.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/emphasis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/listItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/listItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/pre.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/pre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/strikethrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/strikethrough.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/strong.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/strong.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/tableCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/tableCell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/txt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/static_u/showdown/src/subParsers/makemarkdown/txt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/README.ru.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/README.ru.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/agate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/agate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/androidstudio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/arduino-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/arduino-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/arta.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/arta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/ascetic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/ascetic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-cave-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-cave-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-cave-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-cave-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-dune-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-dune-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-dune-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-dune-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-estuary-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-estuary-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-estuary-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-estuary-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-forest-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-forest-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-forest-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-forest-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-heath-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-heath-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-heath-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-heath-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-lakeside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-lakeside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-lakeside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-lakeside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-plateau-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-plateau-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-plateau-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-plateau-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-savanna-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-savanna-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-savanna-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-savanna-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-seaside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-seaside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-seaside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-seaside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-sulphurpool-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-sulphurpool-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-sulphurpool-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atelier-sulphurpool-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atom-one-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atom-one-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/atom-one-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/atom-one-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/brown-paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/brown-paper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/brown-papersq.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/brown-papersq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/codepen-embed.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/codepen-embed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/color-brewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/color-brewer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/darcula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/darcula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/darkula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/darkula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/docco.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/dracula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/dracula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/far.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/far.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/foundation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/github-gist.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/github-gist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/googlecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/googlecode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/grayscale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/gruvbox-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/gruvbox-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/gruvbox-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/gruvbox-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/hopscotch.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/hopscotch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/hybrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/hybrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/idea.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/idea.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/ir-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/ir-black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/kimbie.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/kimbie.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/kimbie.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/kimbie.light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/magula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/magula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/mono-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/mono-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/monokai-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/monokai-sublime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/monokai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/obsidian.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/obsidian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/ocean.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/ocean.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/paraiso-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/paraiso-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/paraiso-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/paraiso-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/pojoaque.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/pojoaque.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/pojoaque.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/pojoaque.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/purebasic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/purebasic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/qtcreator_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/qtcreator_dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/qtcreator_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/qtcreator_light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/railscasts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/railscasts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/rainbow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/rainbow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/routeros.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/routeros.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/school-book.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/school-book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/school-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/school-book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/solarized-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/solarized-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/solarized-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/solarized-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/sunburst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night-bright.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night-eighties.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow-night.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/tomorrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/vs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/vs2015.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/vs2015.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/xcode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/xcode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/xt256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/xt256.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/highlight/styles/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/highlight/styles/zenburn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/jquery-1.11.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/CREDITS.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/CREDITS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/DONATIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/DONATIONS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/bin/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/bin/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/dist/showdown.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/cli/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/cli/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/cli/makehtml.cmd.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/cli/makehtml.cmd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/cli/messenger.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/cli/messenger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/converter.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/converter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/showdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/showdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/anchors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/autoLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/autoLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/blockGamut.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/blockGamut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/blockQuotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/blockQuotes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/codeBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/codeBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/codeSpans.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/codeSpans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/completeHTMLDocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/completeHTMLDocument.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/detab.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/detab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/ellipsis.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/ellipsis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/emoji.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/encodeAmpsAndAngles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/encodeAmpsAndAngles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/encodeBackslashEscapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/encodeBackslashEscapes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/encodeCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/encodeCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/escapeSpecialCharsWithinTagAttributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/escapeSpecialCharsWithinTagAttributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/githubCodeBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/githubCodeBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashCodeTags.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashCodeTags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashHTMLBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashHTMLBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashHTMLSpans.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashHTMLSpans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashPreCodeTags.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/hashPreCodeTags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/headers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/horizontalRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/horizontalRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/italicsAndBold.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/italicsAndBold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/metadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/metadata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/outdent.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/outdent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/paragraphs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/paragraphs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/runExtension.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/runExtension.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/spanGamut.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/spanGamut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/strikethrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/strikethrough.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/stripLinkDefinitions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/stripLinkDefinitions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/underline.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/underline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/unescapeSpecialChars.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makehtml/unescapeSpecialChars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/anchors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/blockquote.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/blockquote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/codeBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/codeBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/codeSpan.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/codeSpan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/emphasis.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/emphasis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/listItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/listItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/pre.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/pre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/strikethrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/strikethrough.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/strong.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/strong.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/tableCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/tableCell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/txt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/static_u/showdown/src/subParsers/makemarkdown/txt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_u/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/static_u/jquery-1.11.3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,15 +742,75 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="648231925">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="112" />
+          <entry key="py" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="112" />
+          <entry key="Python" value="45" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/templates/add_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/templates/show_md.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markdown/templates/add_md.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -80,13 +828,17 @@
         <option value="$PROJECT_DIR$/index/__init__.py" />
         <option value="$PROJECT_DIR$/index/models.py" />
         <option value="$PROJECT_DIR$/markdown/static/css/show_md.css" />
-        <option value="$PROJECT_DIR$/markdown/views.py" />
-        <option value="$PROJECT_DIR$/markdown/templates/show_md.html" />
-        <option value="$PROJECT_DIR$/markdown/urls.py" />
         <option value="$PROJECT_DIR$/index/views.py" />
-        <option value="$PROJECT_DIR$/myself/urls.py" />
-        <option value="$PROJECT_DIR$/myself/settings.py" />
         <option value="$PROJECT_DIR$/index/templates/origin.html" />
+        <option value="$PROJECT_DIR$/page/urls.py" />
+        <option value="$PROJECT_DIR$/myself/urls.py" />
+        <option value="$PROJECT_DIR$/markdown/urls.py" />
+        <option value="$PROJECT_DIR$/markdown/views.py" />
+        <option value="$PROJECT_DIR$/myself/settings.py" />
+        <option value="$PROJECT_DIR$/page/views.py" />
+        <option value="$PROJECT_DIR$/markdown/templates/show_md.html" />
+        <option value="$PROJECT_DIR$/page/templates/add_page.html" />
+        <option value="$PROJECT_DIR$/markdown/templates/add_md.html" />
       </list>
     </option>
   </component>
@@ -97,8 +849,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="115" />
+    <option name="x" value="792" />
+    <option name="y" value="275" />
     <option name="width" value="1400" />
     <option name="height" value="958" />
   </component>
@@ -108,6 +860,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,43 +871,41 @@
             <path>
               <item name="myself" type="b2602c69:ProjectViewProjectNode" />
               <item name="myself" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myself" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myself" type="462c0819:PsiDirectoryNode" />
               <item name="markdown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myself" type="b2602c69:ProjectViewProjectNode" />
               <item name="myself" type="462c0819:PsiDirectoryNode" />
               <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myself" type="b2602c69:ProjectViewProjectNode" />
               <item name="myself" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myself" type="b2602c69:ProjectViewProjectNode" />
               <item name="myself" type="462c0819:PsiDirectoryNode" />
-              <item name="myself" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/my_env/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/page/templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,9 +961,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="115" width="1400" height="958" extended-state="0" />
+    <frame x="792" y="275" width="1400" height="958" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13574661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24105187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/templates/show_md.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -300,16 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#222#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -317,13 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -341,20 +1069,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myself/settings.py">
+    <entry file="file://$PROJECT_DIR$/myself/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="330">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myself/urls.py">
+    <entry file="file://$PROJECT_DIR$/myself/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
-            <element signature="e#615#656#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/templates/add_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/templates/show_md.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/templates/add_md.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>

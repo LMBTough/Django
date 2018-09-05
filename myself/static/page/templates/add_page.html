@@ -1,0 +1,11 @@
+{%extends 'show_md.html'%}
+{%block title%}添加网页{%endblock%}
+{%block body%}
+<div class="fade_in">
+    <form method="post" enctype="multipart/form-data">
+        {%csrf_token%}
+        <input type="file" name="page_file">
+        <input type="submit">
+    </form>
+</div>
+{%endblock body%}
