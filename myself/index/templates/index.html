@@ -56,7 +56,7 @@
             <fieldset>
                 <legend align="left">思维导图</legend>
             {%for i in mn%}
-            <div style="border: solid 2px rgba(200,200,200,0.5);margin-bottom:10px;">
+            <div style="border: solid 2px rgba(200,200,200,0.5);margin-bottom:10px;" onclick="window.open('md/show_mindnode/{{i}}')">
                 <div style="font-size:40px">{{i}}</div>
             </div>
             {%endfor%}

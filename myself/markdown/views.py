@@ -9,7 +9,6 @@ from .models import *
 
 def show_markdown_views(request, name):
     path = Markdown.objects.get(name=name).path
-    print(type(path))
     path = os.path.join(settings.BASE_DIR, 'upload', str(path))
     with open(path) as f:
         md = f.read()
@@ -27,4 +26,12 @@ def add_markdown_views(request):
         return HttpResponse('ok')
     else:
         return render(request, 'add_md.html')
+
+def show_mindnode_views(request, name):
+    obj = Mindnode.objects.get(name=name)
+    name = obj.name
+    path = obj.path
+    path = os.path.join('/media' ,str(path))
+    return render(request, 'show_mindnode.html', {'name':name, 'path':path})
+
 

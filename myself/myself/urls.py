@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^md/', include('markdown.urls')),
     url(r'^page/', include('page.urls')),
     url(r'^', include('index.urls')),
-    # url(r'^static/(?P<path>.*)$', django.views.static.serve, {'document_root': settings.STATIC_ROOT})
+    url(r'^static/(?P<path>.*)$', django.views.static.serve, {'document_root': settings.STATIC_ROOT}),
+    url(r'^media/(?P<path>.*)$', django.views.static.serve, {'document_root': settings.MEDIA_ROOT}),
 ]
