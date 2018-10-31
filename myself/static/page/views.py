@@ -8,7 +8,7 @@ from django.conf import settings
 def add_page_views(request):
     if request.method == "POST":
         obj = request.FILES.get('page_file')
-        with open(os.path.join(settings.BASE_DIR, 'static', 'page',
+        with open(os.path.join(settings.BASE_DIR, 'static', 'pages',
                                obj.name), 'wb') as f:
             for chunk in obj.chunks():
                 f.write(chunk)
@@ -18,4 +18,5 @@ def add_page_views(request):
 
 
 def show_page_views(request, name):
-    return render(request, name)
+    return render(request, os.path.join(settings.BASE_DIR, 'static', 'page',
+                               name))

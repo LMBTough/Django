@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <div id="container">
+		<!-- 编写一首诗 -->
+		<h3 id="title">悯农</h3>
+		<p>锄禾日当午</p>
+		<p>汗滴禾下土</p>
+		<p>谁知盘中餐</p>
+		<p>粒粒皆辛苦</p>
+	</div>
+	<button onclick="getParent()">获取title的父元素</button>
+	<button onclick="getChildren()">获取container的子元素</button>
+
+	<script src="common.js"></script>
+	<script>
+		function getChildren(){
+			var div = $("container");
+			//获取其子元素
+			var childArray = div.childNodes;
+			//循环遍历childArray
+			for(var i=0;i<childArray.length;i++){
+				var elem = childArray[i];
+				//判断elem是否为元素节点
+				/*if(elem.nodeType == 1){
+					console.log(elem.nodeName);
+				}*/
+
+				//打印所有节点的名称
+				console.log(elem.nodeName);
+			}
+		}
+
+		function getParent(){
+			//1、获取 id 为 title 的元素
+			var h3 = $("title");
+			//2、获取其父元素
+			var div = h3.parentNode;
+			div.style.color="red";
+			div.style.backgroundColor="yellow";
+		}
+	</script>
+ </body>
+</html>

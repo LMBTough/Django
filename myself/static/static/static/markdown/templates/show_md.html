@@ -1,0 +1,37 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show MD</title>
+    <script type="text/javascript" src="{%static '/showdown/dist/showdown.min.js'%}"></script>
+    <link type="text/css" rel="stylesheet" href="/static/css/show_md.css">
+    <link type="text/css" rel="stylesheet" href="/static/highlight/styles/color-brewer.css">
+    <script type="text/javascript" src="{%static 'jquery-1.11.3.js'%}"></script>
+</head>
+<body>
+    <!--最头上的条子-->
+    <div>
+
+    </div>
+<!--中间的条子占45%-->
+    <div id="middle">
+        {{md}}
+    </div>
+<!--底下的条子-->
+    <div>
+        <script>
+            var text = document.getElementById("middle").innerHTML;
+            console.log(text);
+            var converter = new showdown.Converter();
+            var html = converter.makeHtml(text);
+            document.getElementById("middle").innerHTML = html;
+        </script>
+        <script type="text/javascript" src="{%static '/highlight/highlight.pack.js'%}"></script>
+        <script>
+            <!--$("pre code").attr("class", "python");-->
+            hljs.initHighlightingOnLoad();
+        </script>
+    </div>
+</body>
+</html>
